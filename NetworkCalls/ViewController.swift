@@ -33,8 +33,18 @@ class ViewController: UIViewController {
             (result) -> () in
             self.useData(resultUI: result)
         }
+        
+        immidiatorManager.getPost(params: userRequestModel.toJSON()){
+            (result) -> () in
+            self.useData(resultUI: result)
+        }
     }
     
+    func useData(resultUI: PostResponse){
+        // Update UI
+        let output = "Response on ViewController " + ": " + resultUI.job!
+        print(output)
+    }
     
     func useData(resultUI: GetUnknownResponse){
      // Update UI
@@ -46,7 +56,5 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
 

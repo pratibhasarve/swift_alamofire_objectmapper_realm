@@ -10,9 +10,6 @@ import Foundation
 import ObjectMapper
 import RealmSwift
 
-protocol Meta {
-    static func url()->String
-}
 
 class GetUnknownResponse:Object, Mappable, Meta{
     
@@ -23,7 +20,6 @@ class GetUnknownResponse:Object, Mappable, Meta{
     var data:[Data]?
     //var data = List<Data>()
 
-    
 
     required convenience init?(map: Map) {
         self.init()

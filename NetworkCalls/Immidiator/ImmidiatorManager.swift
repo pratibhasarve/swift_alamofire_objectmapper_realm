@@ -18,7 +18,7 @@ class ImmidiatorManager{
         apiRequestAlomo.getMethod(type: GetUnknownResponse.self, success: { (response) in
 
            // Data save into Db
-            let result = response as! GetUnknownResponse
+            let result = response
             let dbManager = DbManager()
             dbManager.saveLoginResponse(getUnknownResponse: result)
             dbManager.getLoginResponse()
@@ -27,7 +27,17 @@ class ImmidiatorManager{
             print(error)
             // Error handling
         }
-        
+    }
+    
+    
+    func getPost(params:Dictionary<String,Any>, completion: @escaping ((_ result: PostResponse) -> Void)){
+        apiRequestAlomo.postMethod(type: PostResponse.self, params: params, success: {(response) in
+            // Data save into Db
+            let result = response
+             completion(result)
+            }) { (error) in
+                 print(error)
+        }
     }
     
 }

@@ -13,15 +13,11 @@ class DbManager{
     
     var realm: Realm!
 
-    
     init() {
         self.realm = try! Realm()
     }
     
-    
     func saveLoginResponse(getUnknownResponse :GetUnknownResponse){
-        
-       // let realm = try! Realm()
         for data in getUnknownResponse.data! {
             try! self.realm.write {
                 self.realm.add(data, update: false)
@@ -30,8 +26,6 @@ class DbManager{
     }
     
     func  getLoginResponse(){
-        
-        //let realm = try! Realm()
         let data = Array(realm.objects(Data.self))
         print(data[2].name)
     }

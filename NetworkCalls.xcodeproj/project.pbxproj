@@ -13,14 +13,15 @@
 		E70AF75C1FE27C7000092EFE /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70AF75B1FE27C7000092EFE /* AppConstant.swift */; };
 		E70AF7611FE2ACDA00092EFE /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70AF7601FE2ACDA00092EFE /* DBManager.swift */; };
 		E70AF7631FE2B0B000092EFE /* GetUnknownResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70AF7621FE2B0B000092EFE /* GetUnknownResponse.swift */; };
-		E70AF7651FE2B26700092EFE /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70AF7641FE2B26700092EFE /* Data.swift */; };
 		E73683101FE3E7AC0044025A /* ImmidiatorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E736830F1FE3E7AC0044025A /* ImmidiatorManager.swift */; };
+		E774E6631FE78ADD00065C85 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = E774E6621FE78ADD00065C85 /* Data.swift */; };
+		E774E6651FE78B3200065C85 /* PostResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E774E6641FE78B3200065C85 /* PostResponse.swift */; };
+		E774E66A1FE78BF800065C85 /* MetaProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E774E6691FE78BF800065C85 /* MetaProtocol.swift */; };
 		E7DD3C141FE15B6300871F0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DD3C131FE15B6300871F0A /* AppDelegate.swift */; };
 		E7DD3C161FE15B6300871F0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DD3C151FE15B6300871F0A /* ViewController.swift */; };
 		E7DD3C191FE15B6300871F0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7DD3C171FE15B6300871F0A /* Main.storyboard */; };
 		E7DD3C1B1FE15B6300871F0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7DD3C1A1FE15B6300871F0A /* Assets.xcassets */; };
 		E7DD3C1E1FE15B6300871F0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7DD3C1C1FE15B6300871F0A /* LaunchScreen.storyboard */; };
-		E7DD3C2A1FE15BC400871F0A /* DummyResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DD3C291FE15BC400871F0A /* DummyResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,8 +33,10 @@
 		E70AF75B1FE27C7000092EFE /* AppConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
 		E70AF7601FE2ACDA00092EFE /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
 		E70AF7621FE2B0B000092EFE /* GetUnknownResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetUnknownResponse.swift; sourceTree = "<group>"; };
-		E70AF7641FE2B26700092EFE /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		E736830F1FE3E7AC0044025A /* ImmidiatorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmidiatorManager.swift; sourceTree = "<group>"; };
+		E774E6621FE78ADD00065C85 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Data.swift; path = ../../../../../NetworkCalls/NetworkCalls/Models/DbModels/Data.swift; sourceTree = "<group>"; };
+		E774E6641FE78B3200065C85 /* PostResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostResponse.swift; path = ../../../../../NetworkCalls/NetworkCalls/Models/ResponseModels/PostResponse.swift; sourceTree = "<group>"; };
+		E774E6691FE78BF800065C85 /* MetaProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetaProtocol.swift; sourceTree = "<group>"; };
 		E7DD3C101FE15B6300871F0A /* NetworkCalls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkCalls.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7DD3C131FE15B6300871F0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7DD3C151FE15B6300871F0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -41,7 +44,6 @@
 		E7DD3C1A1FE15B6300871F0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7DD3C1D1FE15B6300871F0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7DD3C1F1FE15B6300871F0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E7DD3C291FE15BC400871F0A /* DummyResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		E70AF7541FE260D400092EFE /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				E774E6611FE78AB600065C85 /* DbModels */,
 				E70AF7571FE2610A00092EFE /* RequestModels */,
 				E70AF7561FE260E500092EFE /* ResponseModels */,
 			);
@@ -93,8 +96,7 @@
 		E70AF7561FE260E500092EFE /* ResponseModels */ = {
 			isa = PBXGroup;
 			children = (
-				E70AF7641FE2B26700092EFE /* Data.swift */,
-				E7DD3C291FE15BC400871F0A /* DummyResponse.swift */,
+				E774E6641FE78B3200065C85 /* PostResponse.swift */,
 				E70AF7621FE2B0B000092EFE /* GetUnknownResponse.swift */,
 			);
 			path = ResponseModels;
@@ -133,6 +135,23 @@
 			path = Immidiator;
 			sourceTree = "<group>";
 		};
+		E774E6611FE78AB600065C85 /* DbModels */ = {
+			isa = PBXGroup;
+			children = (
+				E774E6621FE78ADD00065C85 /* Data.swift */,
+			);
+			name = DbModels;
+			path = "New Group1";
+			sourceTree = "<group>";
+		};
+		E774E6681FE78BE600065C85 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E774E6691FE78BF800065C85 /* MetaProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		E7DD3C071FE15B6300871F0A = {
 			isa = PBXGroup;
 			children = (
@@ -154,6 +173,7 @@
 		E7DD3C121FE15B6300871F0A /* NetworkCalls */ = {
 			isa = PBXGroup;
 			children = (
+				E774E6681FE78BE600065C85 /* Protocols */,
 				E736830E1FE3E7920044025A /* Immidiator */,
 				E70AF75F1FE2ACC100092EFE /* Database */,
 				E70AF75A1FE27C5B00092EFE /* Constants */,
@@ -319,14 +339,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7DD3C161FE15B6300871F0A /* ViewController.swift in Sources */,
-				E7DD3C2A1FE15BC400871F0A /* DummyResponse.swift in Sources */,
 				E73683101FE3E7AC0044025A /* ImmidiatorManager.swift in Sources */,
+				E774E6651FE78B3200065C85 /* PostResponse.swift in Sources */,
 				E70AF7631FE2B0B000092EFE /* GetUnknownResponse.swift in Sources */,
 				E70AF7521FE258BA00092EFE /* ApiRequests.swift in Sources */,
 				E70AF75C1FE27C7000092EFE /* AppConstant.swift in Sources */,
 				E7DD3C141FE15B6300871F0A /* AppDelegate.swift in Sources */,
+				E774E66A1FE78BF800065C85 /* MetaProtocol.swift in Sources */,
 				E70AF7591FE2645100092EFE /* UserRequestModel.swift in Sources */,
-				E70AF7651FE2B26700092EFE /* Data.swift in Sources */,
+				E774E6631FE78ADD00065C85 /* Data.swift in Sources */,
 				E70AF7611FE2ACDA00092EFE /* DBManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
