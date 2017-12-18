@@ -86,7 +86,7 @@
 		E70AF7541FE260D400092EFE /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				E774E66F1FE78E2D00065C85 /* RequestMopdels */,
+				E774E66F1FE78E2D00065C85 /* RequestModels */,
 				E774E6611FE78AB600065C85 /* DbModels */,
 				E70AF7561FE260E500092EFE /* ResponseModels */,
 			);
@@ -143,12 +143,12 @@
 			path = Protocols;
 			sourceTree = "<group>";
 		};
-		E774E66F1FE78E2D00065C85 /* RequestMopdels */ = {
+		E774E66F1FE78E2D00065C85 /* RequestModels */ = {
 			isa = PBXGroup;
 			children = (
 				E70AF7581FE2645100092EFE /* UserRequestModel.swift */,
 			);
-			path = RequestMopdels;
+			path = RequestModels;
 			sourceTree = "<group>";
 		};
 		E7DD3C071FE15B6300871F0A = {
